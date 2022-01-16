@@ -1,0 +1,46 @@
+.main{
+    background-color: blue;
+    width: 500px;
+    height: 600px;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.screen{
+    width: 500px;
+}
+
+.past{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 480px;
+    height: 40px;
+    border: 0;
+    text-align: right;
+    font-size: 20px;
+    color: gray;
+}
+.print{
+    width: 480px;
+    height: 60px;
+    margin: 10px;
+    margin-top: -3px;
+    font-size: 40px;
+    text-align: right;
+    text-overflow: initial;
+    border: 0;
+    background-size: 0%;
+}
+
+.buttons{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+body{
+    background: yellow;
+}

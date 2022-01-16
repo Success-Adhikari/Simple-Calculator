@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    
+ <div class="main">
+     <div class="screen">
+        <button class="past" id="past"></button>
+         <button class="print" id="screen"></button>
+     </div>
+     <button class="buttons" id="one" onclick="put(1)">1</button>
+     <button class="buttons" id="two"onclick="put(2)">2</button>
+     <button class="buttons" id="three"onclick="put(3)">3</button>
+     <button class="buttons" id="AC"onclick="AC()">AC</button><br>
+     <button class="buttons" id="four"onclick="put(4)">4</button>
+     <button class="buttons" id="five"onclick="put(5)">5</button>
+     <button class="buttons" id="six"onclick="put(6)">6</button>
+     <button class="buttons" id="seven"onclick="put(7)">7</button><br>
+     <button class="buttons" id="eight"onclick="put(8)">8</button>
+     <button class="buttons" id="nine"onclick="put(9)">9</button>
+     <button class="buttons" id="zero"onclick="put(0)">0</button>
+     <button class="buttons" id="mul"onclick="put('*')">*</button><br>
+     <button class="buttons" id="div"onclick="put('/')">/</button>
+     <button class="buttons" id="sub"onclick="put('-')">-</button>
+     <button class="buttons" id="add"onclick="put('+')">+</button>
+     <button class="buttons" id="equ" onclick="result()">=</button>
+     
+     
+ </div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
